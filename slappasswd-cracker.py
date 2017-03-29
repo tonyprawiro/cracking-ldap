@@ -1,4 +1,5 @@
-#!/bin/bash
+import hashlib
+import base64
 
 """
 $ slappasswd
@@ -12,9 +13,6 @@ $ echo "rj5qElfD1JK7PCKSLZzxIldkREeFW2Dv" | base64 -D | hexdump -C
 00000010  57 64 44 47 85 5b 60 ef                           |WdDG.[`.|
 00000018
 """
-
-import hashlib
-import base64
 
 ldapUserPassword = "{SSHA}rj5qElfD1JK7PCKSLZzxIldkREeFW2Dv" # "tony"
 

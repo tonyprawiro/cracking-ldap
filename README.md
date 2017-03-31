@@ -65,3 +65,10 @@ Output:
 
 - The faster it is, the more viable it is for a comprehensive testing
 
+## Road map
+
+Version 1: Able to run password verification
+Version 2: Able to use GPU to run the hashlib.sha1.digest()
+Version 3: Able to parellel multiple "threads" to GPU
+Version 4: Able to parellel CPU threads and GPU threads
+Version 5: Able to queue so that multiple machine can run it parellel
